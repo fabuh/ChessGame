@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Chess">
+      <UniqueIdentifier>{b23eca51-b541-4bc9-b6ef-2f82d9a1fd1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chess\ChessPieces">
+      <UniqueIdentifier>{3a89c902-04e2-4f4e-b831-05b5ee14e152}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ChessPieces\Bishop.cpp">
+      <Filter>Chess\ChessPieces</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ChessPieces\ChessPiece.cpp">
+      <Filter>Chess\ChessPieces</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ChessPieces\King.cpp">
+      <Filter>Chess\ChessPieces</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ChessPieces\Knight.cpp">
+      <Filter>Chess\ChessPieces</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ChessPieces\Pawn.cpp">
+      <Filter>Chess\ChessPieces</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ChessPieces\Queen.cpp">
+      <Filter>Chess\ChessPieces</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ChessPieces\Rook.cpp">
+      <Filter>Chess\ChessPieces</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ChessBoard.cpp">
+      <Filter>Chess</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game.cpp">
+      <Filter>Chess</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Renderer.cpp">
+      <Filter>Chess</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameLog.cpp">
+      <Filter>Chess</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ChessPieces\Bishop.h">
+      <Filter>Chess\ChessPieces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ChessPieces\ChessPiece.h">
+      <Filter>Chess\ChessPieces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ChessPieces\King.h">
+      <Filter>Chess\ChessPieces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ChessPieces\Knight.h">
+      <Filter>Chess\ChessPieces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ChessPieces\Pawn.h">
+      <Filter>Chess\ChessPieces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ChessPieces\Queen.h">
+      <Filter>Chess\ChessPieces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ChessPieces\Rook.h">
+      <Filter>Chess\ChessPieces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ChessBoard.h">
+      <Filter>Chess</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game.h">
+      <Filter>Chess</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Renderer.h">
+      <Filter>Chess</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameLog.h">
+      <Filter>Chess</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
