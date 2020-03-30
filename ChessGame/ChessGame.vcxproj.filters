@@ -7,75 +7,84 @@
     <Filter Include="Chess\ChessPieces">
       <UniqueIdentifier>{3a89c902-04e2-4f4e-b831-05b5ee14e152}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Chess\Utils">
+      <UniqueIdentifier>{595a2b2f-64f8-4c86-b30a-2d56139ee523}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\ChessPieces\Bishop.cpp">
+    <ClCompile Include="src\Chess\ChessPieces\Bishop.cpp">
       <Filter>Chess\ChessPieces</Filter>
     </ClCompile>
-    <ClCompile Include="src\ChessPieces\ChessPiece.cpp">
+    <ClCompile Include="src\Chess\ChessPieces\ChessPiece.cpp">
       <Filter>Chess\ChessPieces</Filter>
     </ClCompile>
-    <ClCompile Include="src\ChessPieces\King.cpp">
+    <ClCompile Include="src\Chess\ChessPieces\King.cpp">
       <Filter>Chess\ChessPieces</Filter>
     </ClCompile>
-    <ClCompile Include="src\ChessPieces\Knight.cpp">
+    <ClCompile Include="src\Chess\ChessPieces\Knight.cpp">
       <Filter>Chess\ChessPieces</Filter>
     </ClCompile>
-    <ClCompile Include="src\ChessPieces\Pawn.cpp">
+    <ClCompile Include="src\Chess\ChessPieces\Pawn.cpp">
       <Filter>Chess\ChessPieces</Filter>
     </ClCompile>
-    <ClCompile Include="src\ChessPieces\Queen.cpp">
+    <ClCompile Include="src\Chess\ChessPieces\Queen.cpp">
       <Filter>Chess\ChessPieces</Filter>
     </ClCompile>
-    <ClCompile Include="src\ChessPieces\Rook.cpp">
+    <ClCompile Include="src\Chess\ChessPieces\Rook.cpp">
       <Filter>Chess\ChessPieces</Filter>
     </ClCompile>
-    <ClCompile Include="src\ChessBoard.cpp">
+    <ClCompile Include="src\Chess\ChessBoard.cpp">
       <Filter>Chess</Filter>
     </ClCompile>
-    <ClCompile Include="src\Game.cpp">
+    <ClCompile Include="src\Chess\ChessboardTile.cpp">
       <Filter>Chess</Filter>
     </ClCompile>
-    <ClCompile Include="src\Renderer.cpp">
+    <ClCompile Include="src\Chess\Chessy.cpp">
       <Filter>Chess</Filter>
     </ClCompile>
-    <ClCompile Include="src\GameLog.cpp">
-      <Filter>Chess</Filter>
+    <ClCompile Include="src\Chess\Utils\Logger.cpp">
+      <Filter>Chess\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Chess\Utils\Utils.cpp">
+      <Filter>Chess\Utils</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\ChessPieces\Bishop.h">
+    <ClInclude Include="src\Chess\ChessPieces\Bishop.h">
       <Filter>Chess\ChessPieces</Filter>
     </ClInclude>
-    <ClInclude Include="src\ChessPieces\ChessPiece.h">
+    <ClInclude Include="src\Chess\ChessPieces\ChessPiece.h">
       <Filter>Chess\ChessPieces</Filter>
     </ClInclude>
-    <ClInclude Include="src\ChessPieces\King.h">
+    <ClInclude Include="src\Chess\ChessPieces\King.h">
       <Filter>Chess\ChessPieces</Filter>
     </ClInclude>
-    <ClInclude Include="src\ChessPieces\Knight.h">
+    <ClInclude Include="src\Chess\ChessPieces\Knight.h">
       <Filter>Chess\ChessPieces</Filter>
     </ClInclude>
-    <ClInclude Include="src\ChessPieces\Pawn.h">
+    <ClInclude Include="src\Chess\ChessPieces\Pawn.h">
       <Filter>Chess\ChessPieces</Filter>
     </ClInclude>
-    <ClInclude Include="src\ChessPieces\Queen.h">
+    <ClInclude Include="src\Chess\ChessPieces\Queen.h">
       <Filter>Chess\ChessPieces</Filter>
     </ClInclude>
-    <ClInclude Include="src\ChessPieces\Rook.h">
+    <ClInclude Include="src\Chess\ChessPieces\Rook.h">
       <Filter>Chess\ChessPieces</Filter>
     </ClInclude>
-    <ClInclude Include="src\ChessBoard.h">
+    <ClInclude Include="src\Chess\ChessBoard.h">
       <Filter>Chess</Filter>
     </ClInclude>
-    <ClInclude Include="src\Game.h">
+    <ClInclude Include="src\Chess\ChessboardTile.h">
       <Filter>Chess</Filter>
     </ClInclude>
-    <ClInclude Include="src\Renderer.h">
+    <ClInclude Include="src\Chess\Chessy.h">
       <Filter>Chess</Filter>
     </ClInclude>
-    <ClInclude Include="src\GameLog.h">
-      <Filter>Chess</Filter>
+    <ClInclude Include="src\Chess\Utils\Logger.h">
+      <Filter>Chess\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Chess\Utils\Utils.h">
+      <Filter>Chess\Utils</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

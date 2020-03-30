@@ -5,43 +5,44 @@ enum EEntryType
 	Move,
 	Check,
 	CheckMate,
-	Count
+	NoType
 };
 
-struct GameLogEntry
+struct LogEntry
 {
-	EEntryType m_type = EEntryType::Count;
+	EEntryType m_type = EEntryType::NoType;
 	const std::string* m_message = nullptr;
 public:
-	GameLogEntry(EEntryType type = EEntryType::Count, const std::string* message = nullptr)
+	LogEntry(EEntryType type = EEntryType::NoType, const std::string* message = nullptr)
 		: m_type(type), m_message(message) { }
 
-	const GameLogEntry& operator=(const GameLogEntry& other)
+	const LogEntry& operator=(const LogEntry& other)
 	{
 		if (this != &other)
 		{
 			this->m_message = other.m_message;
 			this->m_type = other.m_type;
 		}
+		return *this;
 	}
 };
 
-class GameLog
+class Logger
 {
 public:
-	GameLog();
-	~GameLog();
+	Logger();
+	~Logger();
 
 	void Read();
 	void Write();
 
-	void AddLog(EEntryType type, const std::string* message);
+	void AddLog(const LogEntry& entry);
 
 private:
 	void Resize();
 
 private:
-	GameLogEntry* m_container;
+	LogEntry* m_container;
 	size_t m_size;
 	size_t m_maxSize;
 };
